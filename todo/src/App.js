@@ -1,8 +1,16 @@
 import './App.css';
+import Button from '@mui/material/Button';
+import AddIcon from '@mui/icons-material/Add';
 
 function App() {
   return (
-    <h1>ToDo</h1>
+    <div className="mainDiv">
+      <div className="centerDiv">
+        <h1>ToDo List</h1>
+        <input type="text" name="" id="" placeholder='Add an Item'/>
+        <Button variant="contained"><AddIcon /></Button>
+      </div>
+    </div>
   );
 }
 
